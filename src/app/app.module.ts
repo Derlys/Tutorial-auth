@@ -2,6 +2,9 @@ import { LayoutWebModule } from '@kikstart-ui/layout-web';
 import { UiNavbarModule } from '@kikstart-ui/ui-navbar';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { AngularFireModule } from '@angular/fire';
+import { environment } from '../environments/environment';
+import { AngularFireAuthModule } from '@angular/fire/auth';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,6 +21,8 @@ import { UiHeroModule } from '@kikstart-ui/ui-hero';
     LayoutWebModule,
     UiNavbarModule,
     UiHeroModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireAuthModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
