@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "tutorial-auth"
+    }
+  },
+  "defaultProject": "tutorial-auth",
+  "cli": {
+    "analytics": "8381381d-3a44-4bf6-b063-d629fdedd0ad"
+  }
 }
