@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "site2-8ce5b": {
+      "hosting": {
+        "tutorial-auth": [
+          "site2-8ce5b"
+        ]
+      }
+    }
+  }
+}
