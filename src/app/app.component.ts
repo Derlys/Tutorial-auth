@@ -17,5 +17,8 @@ export class AppComponent {
     { label: 'Home', path: '/' },
     { label: 'About', path: '/about' },
     { label: 'Contact', path: '/contact' },
+    { label: 'Register', path: '/register' },
+    { label: 'Login', path: '/login' },
+    { label: 'Logout', path: '/logout' },
   ];
 }
